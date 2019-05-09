@@ -5,11 +5,12 @@ import java.awt.FlowLayout;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 public class Center extends JPanel{
 	
-	private JTextField textPass;
+	private JPasswordField textPass;
 	private JLabel labelPass;
 	
 	public Center() {
@@ -18,7 +19,7 @@ public class Center extends JPanel{
 		
 		labelPass = new JLabel("Password");
 		
-		textPass = new JTextField();
+		textPass = new JPasswordField();
 		textPass.setPreferredSize(new Dimension(150,25));
 		
 		this.add(labelPass);
